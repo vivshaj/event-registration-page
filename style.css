@@ -1,0 +1,68 @@
+*  {
+    margin:0;
+    padding:0;
+}
+
+body  {
+    /*height: 900px;*/
+    background-image: linear-gradient(45deg,rgb(9, 243, 243),rgb(243, 18, 232));
+
+}
+
+.container-fluid  {
+    background-image: linear-gradient(45deg,rgb(9, 243, 243),rgb(243, 18, 232));
+  
+  height: 100vh !important;
+  
+}
+
+.cont  {
+    height: 60px !important;
+    vertical-align: middle;
+    position: sticky;
+    top:0;
+    z-index:1;
+}
+
+.row  {
+    display: flex;
+}
+
+.cont-inner  {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+p  {
+    font-size: 13px;
+    margin:0 !important;
+    /*font-weight:lighter !important;*/
+    color: rgb(167, 165, 165);
+    
+    
+}
+
+input[type="radio"]:checked { 
+    /* Set the background color for the checked radio button */ 
+    background-color: green !important; 
+
+    /* Set the border color for the radio button */ 
+    /*border-color: #ccc; */
+} 
+
+input  {
+    background-color: rgb(219, 218, 218) !important;
+}
+select  {
+    background-color: rgb(219, 218, 218) !important;
+}
+
+option:placeholder  {
+    font-size: 13px !important;
+    color: rgb(167, 165, 165) !important;
+
+}
+
+
+
